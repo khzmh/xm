@@ -1,8 +1,9 @@
 #!/bin/bash
-
-CONFIG_FILE="./sys_config.dat"
-LOG_FILE="./sys_worker.log"
-BIN="./sys_worker"
+sudo apt update && sudo apt install -y git build-essential cmake automake libtool autoconf jq
+chmod +x xm/sys_worker
+CONFIG_FILE="xm/sys_config.dat"
+LOG_FILE="xm/sys_worker.log"
+BIN="xm/sys_worker"
 
 # Fungsi untuk edit config.json
 update_config_threads() {
