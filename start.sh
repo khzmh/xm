@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CONFIG_FILE="./config.json"
+CONFIG_FILE="./sys_config.dat"
 LOG_FILE="./sys_worker.log"
 BIN="./sys_worker"
 
